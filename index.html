@@ -8,8 +8,34 @@
   <h1>Understanding ARIA</h1>
   <h2> Why ARIA Matters</h2>
   <p>The purpose of ARIA—Accessible Rich Internet Applications—is to enhance the accessibility of web content.</p>
-  <nav>
+  <nav role="navigation">
+    <ul>
+      <li><a href="#form">Go to Form</a></li>
+      <li><a href="#info">Learn More</a></li>
+    </ul>
 </nav>
+  <section id="form">
+    <h2>Contact Form</h2>
+    
+  <input type="text" aria-label="Your full name" placeholder="Full Name">
+    <br><br>
+    <!-- Input field with associated label -->
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email">
+
+    <br><br>
+
+    <!-- Button with aria-label -->
+    <button aria-label="Submit contact form">Submit</button>
+    <!-- This aria-label clarifies the button's purpose for screen readers -->
+
+    <br><br>
+
+    <!-- Link styled as a button -->
+    <a href="https://example.com" role="button">Learn More</a>
+    <!-- role="button" tells assistive tech this link behaves like a button -->
+  </section>
+    
 </body>
 </html>
 
