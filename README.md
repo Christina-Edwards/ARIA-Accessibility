@@ -35,6 +35,6 @@ ARIA tags help users with disabilities—especially those using screen readers�
 
 ## 🚀 Deployment
 
-Live site: [Your GitHub Pages URL]  
+Live site: [https://github.com/Christina-Edwards/ARIA-Accessibility.git]  
 Pull Request: [Link to PR from `main` to `dev`]
 
